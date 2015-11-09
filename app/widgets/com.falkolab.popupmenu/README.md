@@ -18,7 +18,7 @@ Download this repository and consult the [Alloy Documentation](http://docs.appce
 
 See demo on [popup menu widget demo](https://github.com/falkolab/Titanium-PopupMenu-Demo)
 
-### Properties
+### Widget properties
 * `classesPrefix` _(String)_ - Your custom prefix for widget tss classes
 * `itemController` _(String)_ - Custom item controller (see widget_root/controllers/item as starting point)
 
@@ -65,6 +65,7 @@ Event data:
 * `item` - selected item
 
 ### Methods
+* `init` - may be called at any time to initialize widget
 * `show` - show menu. Can accept `options` object with properties: 
 	* `selectedIndex` - index of selected item.
 * `hide` - hide menu

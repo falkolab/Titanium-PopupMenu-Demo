@@ -133,7 +133,13 @@ exports.show = function(opts) {
 			classes: winClasses,
 			androidView: table
 		});
-		menuWindow.show();	
+			
+		menuWindow.addEventListener('click', function optionDialogClick(evt) {
+			evt.source.removeEventListener(evt.type, optionDialogClick);
+			exports.hide();
+		});
+		
+		menuWindow.show();
 	} else if(OS_IOS) {
 		menuWindow = $.UI.create('Window', {
 			classes: winClasses
@@ -141,10 +147,9 @@ exports.show = function(opts) {
 		menuWindow.add(table);
 		menuWindow.addEventListener('click', function onModalClick(evt) {
     		evt.source.removeEventListener(evt.type, onModalClick);
-    		evt.source.close();
+    		exports.hide();
     	});
-    	menuWindow.open();
-    	
+    	menuWindow.open();    	    	
 	}	
 		
 	table.addEventListener('singletap', function menuWindowListener(evt) {	    	
@@ -180,5 +185,7 @@ exports.hide = function() {
 	menuWindow = undefined;
 	table = undefined;
 };
+
+exports.init = init;
 
 init(arguments[0] || {});

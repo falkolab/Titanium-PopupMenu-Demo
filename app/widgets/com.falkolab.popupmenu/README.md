@@ -42,6 +42,7 @@ or
 * or `generator` _(Function)_ - function as item generator
  
 ### Item properties
+* `title` - item title
 * `controller` - (optional) controller to render this item
 * `handler` - (optional) item select event handler function
 

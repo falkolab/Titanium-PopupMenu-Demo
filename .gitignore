@@ -1,7 +1,7 @@
 .DS_Store
 Resources
 build.log
-build
+build/
 npm-debug.log
 tmp
 .map
@@ -10,3 +10,4 @@ tmp
 Thumbs.dbtiapp.xml
 manifest
 tiapp.xml
+

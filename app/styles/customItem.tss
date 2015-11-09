@@ -1,0 +1,29 @@
+"#item": {
+	height: 65,
+	backgroundColor: "#aaa",
+	layout: "vertical"
+}
+
+"#title": {	
+	font: {
+		fontSize: 24	
+	},	
+	left: 15,
+	right: 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,	
+	color: "#000"
+}
+
+"#description": {
+	font: {
+		fontSize: 18	
+	},	
+	left: 25,
+	right: 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,	
+	color: "#4d4d4d"
+}
+
+".selected": {
+	backgroundColor: "#e4e4e4"
+}

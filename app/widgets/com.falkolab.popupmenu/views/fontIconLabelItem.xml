@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="item" class="falkolab-popupmenu-iconfont-item">
+		<Label id="icon" class="falkolab-popupmenu-iconfont-icon" />
+		<Label id="title" class="falkolab-popupmenu-iconfont-title" />
+	</View>	
+</Alloy>

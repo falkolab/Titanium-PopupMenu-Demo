@@ -1,0 +1,33 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18		
+	}	
+}
+
+".falkolab-popupmenu-iconfont-item": {
+	height: 50,
+	backgroundColor: "#aaa",
+	layout: "horizontal"
+}
+
+".falkolab-popupmenu-iconfont-icon": {
+	color: "#000",
+	left: 15,	
+	width: Titanium.UI.SIZE,
+	center: {
+		x: "50%",
+		y: "50%"
+	}	
+}
+
+".falkolab-popupmenu-iconfont-title": {
+	left: 15,
+	right: 15,
+	width: Titanium.UI.SIZE,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,	
+	color: "#000000",
+	center: {		
+		y: "50%"
+	}
+}

@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container" onClose="cleanup" >
+		
+		<View height="Ti.UI.SIZE" layout="vertical">
+			<Button id="simpleMenu" onClick="openMenu">Simple Menu</Button>
+			<Button id="iconfontMenu" onClick="openMenu">Icon Font Menu</Button>
+			<Button id="customItemMenu" onClick="openMenu">Custom Item Menu</Button>			
+		</View>
+		
+		<Widget id="customItemMenuWidget" 
+			src="com.falkolab.popupmenu" 
+			itemController="customItem" 
+			generator="customMenuItems" 
+			onSelect="onCustomItemMenuSelected" 
+			/>		
+	</Window>
+</Alloy>

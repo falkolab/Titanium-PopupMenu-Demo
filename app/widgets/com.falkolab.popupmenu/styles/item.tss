@@ -1,0 +1,14 @@
+".falkolab-popupmenu-item": {
+	height: 50,
+	backgroundColor: "#aaa"	
+}
+
+".falkolab-popupmenu-title": {
+	font: {
+		fontSize: 18		
+	},
+	left: 15,
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	right: 15,
+	color: "#000"
+}

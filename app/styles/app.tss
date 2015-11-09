@@ -1,0 +1,13 @@
+".custom-menu-iconfont-icon": {
+	color: "#0012aa",
+	font: {		
+		fontFamily: "materialdesignicons-webfont",
+		fontSize: 24
+	}
+}
+
+".custom-menu-iconfont-icon[platform=ios]": {	
+	font: {		
+		fontFamily: "MaterialDesignIcons"		
+	}
+}

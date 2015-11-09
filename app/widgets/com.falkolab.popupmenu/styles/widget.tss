@@ -1,0 +1,18 @@
+".falkolab-popupmenu-window[platform=ios]": {
+	//width: "80%",
+	//height: Titanium.UI.SIZE,
+	//bottom: 0,
+	backgroundColor: 'transparent',
+	backgroundImage: null	
+}
+
+".falkolab-popupmenu-table[platform=ios]": {
+	width: "80%",
+	bottom: 0,
+	height: Titanium.UI.SIZE,
+	editable: false
+}
+
+//".falkolab-popupmenu-window": {}
+//".falkolab-popupmenu-table": {}
+//".falkolab-popupmenu-row": {} 

@@ -1,6 +1,6 @@
 # This is demo app for com.falkolab.popupmenu widget
 
-See [widget doc](falkolab/Titanium-PopupMenu-Demo/blob/master/app/widgets/com.falkolab.popupmenu/README.md)
+See [widget doc](https://github.com/falkolab/Titanium-PopupMenu-Demo/blob/master/app/widgets/com.falkolab.popupmenu/README.md)
 
 
 ![screenshot1](app/widgets/com.falkolab.popupmenu/screenshot1.png?raw=true "Example screenshot 1")
